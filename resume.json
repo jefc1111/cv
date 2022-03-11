@@ -17,14 +17,9 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
-      },
-      {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.example.com/dandymusicnl"
+        "network": "linkedin",
+        "username": "geoff-clayton",
+        "url": "https://www.linkedin.com/in/geoff-clayton-b0222982/"
       }
     ]
   },
@@ -45,31 +40,26 @@
       ]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "url": "http://coderdojo.example.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
-      "highlights": [
-        "Awarded 'Teacher of the Month'"
-      ]
-    }
-  ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "url": "https://www.ou.edu/",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "score": "4.0",
+      "institution": "The Open University",
+      "url": "https://www.open.ac.uk/",
+      "area": "Maths & Computing",
+      "studyType": "BSc (hons)",
+      "startDate": "2012",
+      "endDate": "2018",
+      "score": "First-class honours",
       "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
+        "TM353 IT systems: planning for success",
+        "TM354 Software Engineering",
+        "TM351 Data Management and Analysis",
+        "M364 Fundamentals of Interaction Design",
+        "MST224 Mathematical Methods",
+        "M269 Algorithms, data structures and computability",
+        "MS221 Exploring mathematics",
+        "M255 Object-oriented programming with Java",
+        "MST121 Using mathematics",
+        "Credit transfer from Oxford Brookes University (1998 - 2000)" 
       ]
     }
   ],
