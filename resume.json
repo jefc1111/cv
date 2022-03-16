@@ -155,26 +155,20 @@
   ],
   "projects": [
     {
-      "name": "Miss Direction",
-      "description": "A mapping engine that misguides you",
+      "name": "Zenbot Sim Runner",
+      "description": "Backtesting aggregation and analysis platform",
       "highlights": [
-        "Won award at AIHacks 2016",
-        "Built by all women team of newbie programmers",
-        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
       ],
       "keywords": [
-        "GoogleMaps",
-        "Chrome Extension",
-        "Javascript"
+        
       ],
-      "startDate": "2016-08-24",
-      "endDate": "2016-08-24",
-      "url": "missdirection.example.com",
+      "startDate": "2021-04-01",
+      "endDate": "",
+      "url": "https://zsr-app.com",
       "roles": [
-        "Team lead",
-        "Designer"
+        
       ],
-      "entity": "Smoogle",
+      "entity": "",
       "type": "application"
     }
   ],
