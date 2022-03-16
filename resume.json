@@ -52,6 +52,19 @@
         "Design a new iteration of the existing monolithic architecture consisting of a mix of microservices and full stack apps",
         "Hire and manage various contractors"
       ]
+    },
+    {
+      "name": "Bright Analytics",
+      "location": "",
+      "description": "",
+      "position": "Lead Developer",
+      "url": "https://brightanalytics.com/",
+      "startDate": "01-01-2012",
+      "endDate": "31-01-2017",
+      "summary": "",
+      "highlights": [
+        "Full-stack developement"
+      ]
     }
   ],
   "education": [
