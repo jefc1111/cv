@@ -30,8 +30,8 @@
       "description": "Full service data analysis & visualisation platform",
       "position": "CTO",
       "url": "https://brightanalytics.com/",
-      "startDate": "01-01-2020",
-      "endDate": "Current",
+      "startDate": "2020-01-01",
+      "endDate": "",
       "summary": "",
       "highlights": [
         "Managing security audits and performing relevant remedial work",
@@ -45,8 +45,8 @@
       "description": "",
       "position": "Platform Architect",
       "url": "https://brightanalytics.com/",
-      "startDate": "01-01-2017",
-      "endDate": "31-01-2019",
+      "startDate": "2017-01-01",
+      "endDate": "2019-01-31",
       "summary": "",
       "highlights": [
         "Design a new iteration of the existing monolithic architecture consisting of a mix of microservices and full stack apps",
@@ -59,8 +59,8 @@
       "description": "",
       "position": "Lead Developer",
       "url": "https://brightanalytics.com/",
-      "startDate": "01-01-2012",
-      "endDate": "31-01-2017",
+      "startDate": "2012-01-01",
+      "endDate": "2017-01-31",
       "summary": "",
       "highlights": [
         "Full-stack developement",
