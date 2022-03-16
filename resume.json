@@ -94,20 +94,39 @@
   "skills": [
     {
       "name": "Web Development",
-      "level": "Master",
+      "level": "",
       "keywords": [
+        "PHP",
         "HTML",
         "CSS",
         "Javascript"
       ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
+      "name": "Other language exposure",
+      "level": "",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "Python",
+        "Typescript"
+      ]
+    },
+    {
+      "name": "Database",
+      "level": "",
+      "keywords": [
+        "MySQL",
+        "MongoDB",
+        "Elastic Search",
+        "Redis"
+      ]
+    },
+    {
+      "name": "Ops",
+      "level": "",
+      "keywords": [
+        "AWS",
+        "Linux (Ubuntu)",
+        "Docker / docker-compose"        
       ]
     }
   ],
