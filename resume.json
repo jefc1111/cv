@@ -66,6 +66,48 @@
         "Full-stack developement",
         "Leadin a small team of permanent and contract developers"
       ]
+    },
+    {
+      "name": "HMV UK",
+      "location": "London",
+      "description": "Music and entertainment retailer",
+      "position": "Business Services Analyst",
+      "url": "https://hmv.com/",
+      "startDate": "2009-01-01",
+      "endDate": "2012-05-01",
+      "summary": "",
+      "highlights": [
+        "2nd/3rd line application support",
+        "EDI",
+        "EPOS"
+      ]
+    },
+    {
+      "name": "HMV UK",
+      "location": "",
+      "description": "",
+      "position": "Windows infrastructure Analyst",
+      "url": "",
+      "startDate": "2007-09-01",
+      "endDate": "2009-01-01",
+      "summary": "",
+      "highlights": [
+        "Desktop IT Support",
+        "1st line Windows server support"
+      ]
+    },
+    {
+      "name": "HMV UK",
+      "location": "",
+      "description": "",
+      "position": "Systems Support Analyst",
+      "url": "",
+      "startDate": "2005-05-01",
+      "endDate": "2007-09-01",
+      "summary": "",
+      "highlights": [
+        "Helpdesk phone / email support for store and Head Office users"
+      ]
     }
   ],
   "education": [
@@ -156,7 +198,7 @@
   "projects": [
     {
       "name": "Zenbot Sim Runner",
-      "description": "Backtesting aggregation and analysis platform",
+      "description": "Backtesting aggregation and analysis platform.",
       "highlights": [
       ],
       "keywords": [
