@@ -36,7 +36,8 @@
       "highlights": [
         "Managing security audits and performing relevant remedial work",
         "R&D tax returns",
-        "Leading the engineering team's transition towards being the centre of Product expertise in the business"
+        "Leading the engineering team's transition towards being the centre of Product expertise in the business",
+        "Solving a variety of scaling problems relating to both increases in usage and changes in usage patterns"
       ]
     },
     {
@@ -64,7 +65,8 @@
       "summary": "",
       "highlights": [
         "Full-stack developement",
-        "Leadin a small team of permanent and contract developers"
+        "Leading a small team of permanent and contract developers",
+        "Building from scratch a flexible MySQL based reporting engine"
       ]
     },
     {
@@ -138,7 +140,8 @@
       "name": "Web development",
       "level": "",
       "keywords": [
-        "PHP",
+        "PHP 8",
+        "Laravel 8",
         "HTML",
         "CSS",
         "Javascript"
@@ -190,6 +193,20 @@
       "keywords": [
         "dSLR"
       ]
+    },
+    {
+      "name": "Cold water swimming",
+      "keywords": [
+        "Exercise"
+      ]
+    },
+    {
+      "name": "Science fictiom",
+      "keywords": [
+        "Books",
+        "Films",
+        "TV"        
+      ]
     }
   ],
   "references": [
@@ -204,7 +221,9 @@
       "description": "Backtesting aggregation and analysis platform.",
       "highlights": [
         "Home lab",
-        "Currency trading automation"
+        "Currency trading automation",
+        "Server management",
+        "Paralellism"
       ],
       "keywords": [
         
