@@ -207,6 +207,13 @@
         "Films",
         "TV"        
       ]
+    },
+    {
+      "name": "DIY",
+      "keywords": [
+        "Carpentry",
+        "Tiling"
+      ]
     }
   ],
   "references": [
