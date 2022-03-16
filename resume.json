@@ -93,7 +93,7 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "Web development",
       "level": "",
       "keywords": [
         "PHP",
@@ -103,7 +103,7 @@
       ]
     },
     {
-      "name": "Other language exposure",
+      "name": "Other languages",
       "level": "",
       "keywords": [
         "Python",
@@ -149,8 +149,8 @@
   ],
   "references": [
     {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+      "name": "",
+      "reference": ""
     }
   ],
   "projects": [
