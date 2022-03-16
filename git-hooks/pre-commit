@@ -1,4 +1,0 @@
-#!/bin/sh
-
-resume export geoff-clayton.pdf --theme actual
-git add geoff-clayton.pdf
