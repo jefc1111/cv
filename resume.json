@@ -119,10 +119,18 @@
   ],
   "interests": [
     {
-      "name": "Wildlife",
+      "name": "Music",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Guitar",
+        "Keys",
+        "Drums",
+        "Production"
+      ]
+    },
+    {
+      "name": "Photography",
+      "keywords": [
+        "dSLR"
       ]
     }
   ],
