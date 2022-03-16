@@ -11,3 +11,16 @@ jobs:
       - run: npm install -g resume-cli
       - run: npm install jsonresume-theme-actual
       - run: resume export geoff-clayton.pdf --theme actual
+      - uses: EndBug/add-and-commit@v9 # You can change this to use a specific version.
+        with:
+          # The arguments for the `git add` command (see the paragraph below for more info)
+          # Default: '.'
+          add: 'geoff-clayton.pdf'
+
+          # The local path to the directory where your repository is located. You should use actions/checkout first to set it up.
+          # Default: '.'
+          cwd: '/home/runner/work/cv/cv'
+
+          # The message for the commit.
+          # Default: 'Commit from GitHub Actions (name of the workflow)'
+          message: 'Update PDF CV'
