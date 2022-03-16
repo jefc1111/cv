@@ -168,7 +168,10 @@
       "keywords": [
         "AWS",
         "Linux (Ubuntu)",
-        "Docker / docker-compose"        
+        "Docker / docker-compose",
+        "SSL",
+        "nginx",
+        "DNS" 
       ]
     }
   ],
@@ -200,6 +203,8 @@
       "name": "Zenbot Sim Runner",
       "description": "Backtesting aggregation and analysis platform.",
       "highlights": [
+        "Home lab",
+        "Currency trading automation"
       ],
       "keywords": [
         
