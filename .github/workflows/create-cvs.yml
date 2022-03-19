@@ -12,8 +12,13 @@ jobs:
       - run: npm install jsonresume-theme-actual
       - run: resume export geoff-clayton.pdf --theme actual
       - run: resume export geoff-clayton.html --theme actual
-      - name: Upload CV files
+      - name: Upload PDF CV
         uses: actions/upload-artifact@v3
         with:
-          name: upload-cv-files
-          path: geoff-clayton.*
+          name: upload-pdf-cv
+          path: geoff-clayton.pdf
+      - name: Upload html CV
+        uses: actions/upload-artifact@v3
+        with:
+          name: upload-html-cv
+          path: geoff-clayton.html
