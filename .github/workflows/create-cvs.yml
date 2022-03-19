@@ -10,15 +10,15 @@ jobs:
           node-version: '14'
       - run: npm install -g resume-cli
       - run: npm install jsonresume-theme-actual
-      - run: resume export geoff-clayton.pdf --theme actual
-      - run: resume export geoff-clayton.html --theme actual
+      - run: resume export geoff-clayton-cv.pdf --theme actual
+      - run: resume export geoff-clayton-cv.html --theme actual
       - name: Upload PDF CV
         uses: actions/upload-artifact@v3
         with:
-          name: upload-pdf-cv
-          path: geoff-clayton.pdf
+          name: pdf-cv
+          path: geoff-clayton-cv.pdf
       - name: Upload html CV
         uses: actions/upload-artifact@v3
         with:
-          name: upload-html-cv
-          path: geoff-clayton.html
+          name: html-cv
+          path: geoff-clayton-cv.html
