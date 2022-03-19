@@ -1,7 +1,7 @@
 name: create-cvs
 on: [push]
 jobs:
-  check-bats-version:
+  create-cvs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -12,8 +12,8 @@ jobs:
       - run: npm install jsonresume-theme-actual
       - run: resume export geoff-clayton.pdf --theme actual
       - run: resume export geoff-clayton.html --theme actual
-      - name: Archive artefacts
+      - name: Upload CV files
         uses: actions/upload-artifact@v3
         with:
-          name: pdf-cv
-          path: geoff-clayton.pdf
+          name: upload-cv-files
+          path: geoff-clayton.*
