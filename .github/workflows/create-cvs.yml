@@ -10,8 +10,8 @@ jobs:
           node-version: '14'
       - run: npm install -g resume-cli
       - run: npm install jsonresume-theme-actual
-      - run: resume export geoff-clayton-cv.pdf --theme actual
-      - run: resume export geoff-clayton-cv.html --theme actual
+      - run: resume export build/geoff-clayton-cv.pdf --theme actual
+      - run: resume export build/geoff-clayton-cv.html --theme actual
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
@@ -22,11 +22,11 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: pdf-cv
-          path: geoff-clayton-cv.pdf
+          path: build/geoff-clayton-cv.pdf
       - name: Upload html CV
         uses: actions/upload-artifact@v3
         with:
           name: html-cv
-          path: geoff-clayton-cv.html
+          path: build/geoff-clayton-cv.html
       - name: Deploy to S3
-        run: aws s3 sync geoff-clayton-cv.html s3://geoff-clayton-cv
+        run: aws s3 sync ./build s3://geoff-clayton-cv
