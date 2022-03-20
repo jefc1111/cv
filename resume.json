@@ -227,6 +227,24 @@
   ],
   "projects": [
     {
+      "name": "Example BA project",
+      "description": "Example.",
+      "highlights": [
+        
+      ],
+      "keywords": [
+        
+      ],
+      "startDate": "2021-04-01",
+      "endDate": "",
+      "url": "",
+      "roles": [
+        
+      ],
+      "entity": "",
+      "type": "application"
+    },
+    {
       "name": "Zenbot Sim Runner",
       "description": "Backtesting aggregation and analysis platform.",
       "highlights": [
