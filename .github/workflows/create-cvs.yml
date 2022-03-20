@@ -29,4 +29,4 @@ jobs:
           name: html-cv
           path: geoff-clayton-cv.html
       - name: Deploy to S3
-        run: aws s3 sync ./geoff-clayton-cv.html s3://geoff-clayton-cv
+        run: aws s3 sync geoff-clayton-cv.html s3://geoff-clayton-cv
