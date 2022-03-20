@@ -1,0 +1,32 @@
+name: create-cvs
+on: [push]
+jobs:
+  create-cvs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - run: npm install -g resume-cli
+      - run: npm install jsonresume-theme-actual
+      - run: resume export build/geoff-clayton-cv.pdf --theme actual
+      - run: resume export build/geoff-clayton-cv.html --theme actual
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-west-1
+      - name: Upload PDF CV
+        uses: actions/upload-artifact@v3
+        with:
+          name: pdf-cv
+          path: build/geoff-clayton-cv.pdf
+      - name: Upload html CV
+        uses: actions/upload-artifact@v3
+        with:
+          name: html-cv
+          path: build/geoff-clayton-cv.html
+      - name: Deploy to S3
+        run: aws s3 sync ./build s3://geoff-clayton-cv
