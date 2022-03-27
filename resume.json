@@ -139,6 +139,20 @@
         "MST121 Using mathematics",
         "Credit transfer from Oxford Brookes University (1998 - 2000)" 
       ]
+    },
+    {
+      "institution": "Abingdon School",
+      "url": "https://www.abingdon.org.uk/",
+      "area": "",
+      "studyType": "GCSE & A Level",
+      "startDate": "1993",
+      "endDate": "1997",
+      "score": "",
+      "courses": [
+        "English",
+        "Music",
+        "Economics" 
+      ]
     }
   ],
   "skills": [
