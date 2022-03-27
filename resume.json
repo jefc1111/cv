@@ -148,7 +148,8 @@
         "Laravel 8",
         "HTML",
         "CSS",
-        "Javascript"
+        "Javascript",
+        "React"
       ]
     },
     {
@@ -163,7 +164,7 @@
       "name": "Database",
       "level": "",
       "keywords": [
-        "MySQL",
+        "SQL",
         "MongoDB",
         "Elastic Search",
         "Redis"
@@ -175,7 +176,7 @@
       "keywords": [
         "AWS",
         "Linux (Ubuntu)",
-        "Docker / docker-compose",
+        "Docker",
         "SSL",
         "nginx",
         "DNS" 
