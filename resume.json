@@ -159,7 +159,8 @@
       "level": "",
       "keywords": [
         "Python",
-        "Typescript"
+        "Typescript",
+        "Bash"
       ]
     },
     {
@@ -181,7 +182,8 @@
         "Docker",
         "SSL",
         "nginx",
-        "DNS" 
+        "DNS",
+        "CI/CD"
       ]
     }
   ],
