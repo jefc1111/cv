@@ -230,26 +230,8 @@
   ],
   "projects": [
     {
-      "name": "Example BA project",
-      "description": "Example.",
-      "highlights": [
-        
-      ],
-      "keywords": [
-        
-      ],
-      "startDate": "2021-04-01",
-      "endDate": "",
-      "url": "",
-      "roles": [
-        
-      ],
-      "entity": "",
-      "type": "application"
-    },
-    {
       "name": "Zenbot Sim Runner",
-      "description": "Cryptocurrency trading - backtesting aggregation and analysis platform",
+      "description": "Cryptocurrency trading: backtesting aggregation and analysis platform",
       "highlights": [
         "Home lab",
         "Server build & management",
