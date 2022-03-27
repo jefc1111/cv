@@ -35,7 +35,7 @@
       "summary": "",
       "highlights": [
         "Leading the engineering team's transition towards being the centre of Product expertise in the business",
-        "Solving a variety of scaling problems relating to both increases in usage and changes in usage patterns",
+        "Solving a variety of scaling problems arising from both increases in usage and changes in usage patterns",
         "Managing clound infrastructure and related costs",
         "Managing security audits and performing relevant remedial work",
         "R&D tax returns"
@@ -83,9 +83,10 @@
       "endDate": "2012-05-01",
       "summary": "",
       "highlights": [
-        "2nd/3rd line application support",
+        "2nd / 3rd line application support",
         "EDI",
-        "EPOS"
+        "EPOS",
+        "AS/400"
       ]
     },
     {
