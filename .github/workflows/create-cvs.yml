@@ -12,6 +12,7 @@ jobs:
       - run: npm install jsonresume-theme-actual
       - run: resume export build/geoff-clayton-cv.pdf --theme actual
       - run: resume export build/geoff-clayton-cv.html --theme actual
+      - run: sed -i -e 's/Actual theme for JSON Resume/Geoff Clayton CV/g' build/geoff-clayton-cv.html
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
