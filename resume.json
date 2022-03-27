@@ -251,9 +251,13 @@
       "description": "Backtesting aggregation and analysis platform.",
       "highlights": [
         "Home lab",
+        "Server build & management",
         "Currency trading automation",
-        "Server management",
-        "Paralellism"
+        "Paralellism",
+        "Data analysis",
+        "Self-learning",
+        "Automation",
+        "Auto-scaling (AWS Fargate)"
       ],
       "keywords": [
         
