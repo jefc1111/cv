@@ -249,11 +249,10 @@
   "projects": [
     {
       "name": "Zenbot Sim Runner",
-      "description": "Cryptocurrency trading: backtesting aggregation and analysis platform",
+      "description": "Backtesting aggregation and analysis platform",
       "highlights": [
         "Home lab",
         "Server build & management",
-        "Currency trading automation",
         "Paralellism",
         "Data analysis",
         "Self-learning",
