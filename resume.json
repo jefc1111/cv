@@ -171,10 +171,10 @@
     {
       "name": "Other languages",
       "level": "",
-      "keywords": [
-        "Python",
+      "keywords": [        
         "Typescript",
-        "Bash"
+        "Bash",
+        "Python"
       ]
     },
     {
