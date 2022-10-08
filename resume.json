@@ -171,8 +171,9 @@
     {
       "name": "Other languages",
       "level": "",
-      "keywords": [        
+      "keywords": [
         "Typescript",
+        "Elixir",
         "Bash",
         "Python"
       ]
@@ -184,7 +185,8 @@
         "SQL",
         "MongoDB",
         "Elastic Search",
-        "Redis"
+        "Redis",
+        "SnowflakeS"
       ]
     },
     {
@@ -198,7 +200,8 @@
         "SSL",
         "nginx",
         "DNS",
-        "CI/CD"
+        "CI/CD",
+        "DX (developer experience)"
       ]
     }
   ],
