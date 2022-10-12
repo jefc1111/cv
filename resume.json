@@ -1,10 +1,10 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Geoff Clayton",
+    "name": "GC",
     "label": "CTO / Software Engineer",
     "image": "",
-    "email": "jefc_uk@hotmail.com",
+    "email": "[email address redacted]",
     "phone": "07813 894211",
     "url": "https://github.com/jefc1111",
     "summary": "Geoff is a computing enthusiast with a **Product-focussed** approach to delivering software. He is a good communicator amongst both technical and non-technical stakeholders. Geoff is experienced in running a small remote-first team of developers. Geoff enjoys **complex problems** and **simple solutions**. He is looking for a varied role in a small organisation with an interesting mission.",
@@ -19,7 +19,7 @@
       {
         "network": "linkedin",
         "username": "geoff-clayton",
-        "url": "https://www.linkedin.com/in/geoff-clayton-b0222982/"
+        "url": "[LKinkedIn URL redacted]]"
       }
     ]
   },
