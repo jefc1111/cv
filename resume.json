@@ -252,6 +252,26 @@
   ],
   "projects": [
     {
+      "name": "radio-tracker",
+      "description": "BBC 6 Music 'now playing' app with favourites tracking",
+      "highlights": [
+        "Elixir",
+        "Phoenix LiveView",
+        "side / hobby project,"
+      ],
+      "keywords": [
+        
+      ],
+      "startDate": "2022-08-01",
+      "endDate": "",
+      "url": "https://github.com/jefc1111/radio-tracker",
+      "roles": [
+        
+      ],
+      "entity": "",
+      "type": "application"
+    },
+    {
       "name": "Zenbot Sim Runner",
       "description": "Backtesting aggregation and analysis platform",
       "highlights": [
@@ -267,7 +287,7 @@
         
       ],
       "startDate": "2021-04-01",
-      "endDate": "",
+      "endDate": "2022-03-01",
       "url": "https://github.com/jefc1111/zenbot-sim-runner",
       "roles": [
         
