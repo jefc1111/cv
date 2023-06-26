@@ -253,7 +253,7 @@
   "projects": [
     {
       "name": "radio-tracker",
-      "description": "BBC 6 Music 'now playing' app with favourites tracking",
+      "description": "BBC 6 Music 'now playing' app with favourites tracking - WIP",
       "highlights": [
         "Elixir",
         "Phoenix LiveView",
@@ -264,7 +264,7 @@
       ],
       "startDate": "2022-08-01",
       "endDate": "",
-      "url": "https://github.com/jefc1111/radio-tracker",
+      "url": "https://radio-tracker.geoffclayton.com",
       "roles": [
         
       ],
