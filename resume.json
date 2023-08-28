@@ -161,7 +161,7 @@
       "level": "",
       "keywords": [
         "PHP 8",
-        "Laravel 8",
+        "Laravel 10",
         "HTML",
         "CSS",
         "Javascript",
@@ -251,6 +251,27 @@
     }
   ],
   "projects": [
+    {
+      "name": "wwwww.today",
+      "description": "Tracks Google automcomplete results for the 5 W's,
+      "highlights": [
+        "Laravel 10",
+        "Puppeteer",
+        "side / hobby project",
+        "Analytics
+      ],
+      "keywords": [
+        
+      ],
+      "startDate": "2023-04-01",
+      "endDate": "",
+      "url": "https://wwwww.today",
+      "roles": [
+        
+      ],
+      "entity": "",
+      "type": "application"
+    },
     {
       "name": "radio-tracker",
       "description": "BBC 6 Music 'now playing' app with favourites tracking - WIP",
