@@ -271,7 +271,7 @@
   "projects": [
     {
       "name": "wwwww.today",
-      "description": "Tracks Google automcomplete results for the 5 \"W\"s (Who, What, When, Where Why)",
+      "description": "Tracks Google automcomplete results for the 5 \"W\"s (Who, What, When, Where, Why)",
       "highlights": [
         "Laravel 10",
         "Puppeteer",
