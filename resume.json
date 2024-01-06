@@ -120,6 +120,16 @@
   ],
   "education": [
     {
+      "institution": "University of Exeter",
+      "url": "https://www.exeter.ac.uk/",
+      "area": "Cyber Security Analytics (2023 - 2025)",
+      "studyType": "MSc",
+      "startDate": "2023",
+      "endDate": "2025",
+      "score": "",
+      "courses": []
+    },
+    {
       "institution": "The Open University",
       "url": "https://www.open.ac.uk/",
       "area": "Maths & Computing",
@@ -207,6 +217,14 @@
   ],
   "interests": [
     {
+      "name": "Computers",
+      "keywords": [
+        "Hardware",
+        "Software",
+        "Humans"
+      ]
+    },
+    {
       "name": "Music",
       "keywords": [
         "Guitar",
@@ -253,7 +271,7 @@
   "projects": [
     {
       "name": "wwwww.today",
-      "description": "Tracks Google automcomplete results for the 5 \"W\"s",
+      "description": "Tracks Google automcomplete results for the 5 \"W\"s (Who, What, When, Where Why)",
       "highlights": [
         "Laravel 10",
         "Puppeteer",
