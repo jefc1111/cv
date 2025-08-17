@@ -7,7 +7,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: '18'
       - run: npm install -g resume-cli
       - run: npm install jsonresume-theme-actual
       - run: export RESUME_PUPPETEER_NO_SANDBOX=1
