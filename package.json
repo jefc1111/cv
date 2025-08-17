@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "jsonresume-theme-actual": "^0.1.6",
-    "resume-cli": "^3.0.6",
+    "resume-cli": "^3.0.9",
     "jsonresume-theme-caffeine": "^1.2.3"
   },
   "devDependencies": {},
