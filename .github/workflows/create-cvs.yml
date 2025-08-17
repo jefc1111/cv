@@ -10,6 +10,7 @@ jobs:
           node-version: '16'
       - run: npm install -g resume-cli
       - run: npm install jsonresume-theme-actual
+      - run: export RESUME_PUPPETEER_NO_SANDBOX=1
       - run: resume export build/geoff-clayton-cv.pdf --theme actual --format pdf
       - run: resume export build/geoff-clayton-cv.html --theme actual
       # Now replace the defaiult page title in the generated html
