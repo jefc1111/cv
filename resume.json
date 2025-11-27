@@ -7,7 +7,7 @@
     "email": "me@geoffclayton.com",
     "phone": "+44 7813 894211",
     "url": "https://github.com/jefc1111",
-    "summary": "Geoff is a computing enthusiast with a **Product-focussed** approach to delivering software. He is a good communicator amongst both technical and non-technical stakeholders. Geoff is experienced in running a small remote-first team of developers. Geoff enjoys **complex problems** and **simple solutions**. He is looking for a varied role in a small organisation with an interesting mission.",
+    "summary": "A senior technology leader and CTO with over a decade of experience shaping end-to-end architecture, delivery and cyber security for a successful end-to-end analytics platform. Experienced in setting company-wide technical strategy, leading engineering teams and delivering technology improvements that create measurable value. Geoff is a versatile communicator able to align technical decisions with organisational goals in a variety of stakeholder contexts.",
     "location": {
       "address": "7 Newtons Orchard",
       "postalCode": "EX13 7UG",
@@ -44,14 +44,12 @@
       "endDate": "",
       "summary": "",
       "highlights": [
-        "Leading the engineering team's move towards being the centre of Product expertise in the business",
-        "Working on new features from requirements gathering and validation through to coding, testing and deployment",
-        "Back end bug fixes and optimisations (mostly OOP), front-end PR review",
-        "Engineering team hiring and process optimisation",
-        "Solving a variety of scaling problems arising from both increases in usage and changes in usage patterns",
-        "Managing cloud infrastructure (AWS) and related costs",
-        "Managing 3rd party security audits and lead relevant remedial work",
-        "R&D tax credit claims"
+        "Handled all technology and software engineering operations across the company; defined architecture, delivery standards, and cyber security practices for the platform.",
+        "Developed and executed the product roadmap, introducing scalable microservices and leveraging cloud products to support business growth and evolving usage patterns.",
+        "Implemented process improvements and technical best practices, increasing development efficiency and reliability of product delivery.",
+        "Recruited, mentored, and managed the engineering function, building a high-performing, diverse and geographically distributed team.",
+        "Oversaw 3rd party security audits and led remediation efforts, strengthening the platform’s security posture and compliance.",
+        "Delivered measurable improvements in platform stability, operational efficiency, and client-facing analytics capabilities."
       ]
     },
     {
@@ -64,10 +62,10 @@
       "endDate": "2019-12-31",
       "summary": "",
       "highlights": [
-        "Designing a new iteration of the existing monolithic architecture consisting of a mix of microservices and full stack apps",
-        "Hiring and managing contractors in a variety of roles",
-        "Requirements gathering and Project Management",
-        "Creating documentation for non-techincal stakeholders"
+        "Designed a new iteration of the platform, moving from the legacy monolithic architecture to a mix of microservices and full stack apps.",
+        "Hired and managed contractors and permanent employees in a variety of roles.",
+        "Led requirements gathering and took on Project Management duties when required.",
+        "Created documentation for both internal and external non-technical stakeholders."
       ]
     },
     {
@@ -80,10 +78,11 @@
       "endDate": "2017-12-31",
       "summary": "",
       "highlights": [
-        "Full-stack development",
-        "Leading a small team of permanent and contract developers",
-        "Building from scratch a flexible MySQL based reporting engine",
-        "Data visualisation"
+        "Full-stack software development.",
+        "Team leaderhip and mentoring. Process development and team culture.",
+        "Devised a novel approach to supporting customied semenatic layer configuration across multiple tenants.",
+        "Designed and built from scratch a flexible MySQL based reporting engine.",
+        "Data visualisation development."
       ]
     },
     {
