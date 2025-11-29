@@ -1,466 +1,384 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Geoff Clayton</title>
-    <meta name="description" content="Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap">
-    <style>:root {
-  /* Colors */
-  --primaryColor: #212529;
-  --secondaryColor: #95a5a6;
-  --accentColor: #f1c40f;
-  --linkColor: #2ecc71;
-  --mutedColor: #f4f6f6;
-
-  /* Typography */
-  --ratio: 1.25;
-  --scale0: 1rem;
-  --scale1: calc(var(--scale0) * var(--ratio));
-  --scale2: calc(var(--scale1) * var(--ratio));
-  --scale3: calc(var(--scale2) * var(--ratio));
-  --scale4: calc(var(--scale3) * var(--ratio));
-  --scale5: calc(var(--scale4) * var(--ratio));
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><style>@charset "UTF-8";
+/* Workaround for 'break-before:avoid' */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
 }
 
-* {
-  box-sizing: border-box;
+ul, li {
   margin: 0;
   padding: 0;
 }
 
-html {
+span, q {
+  display: block;
+}
+
+p {
+  margin: 0;
+}
+
+@media not print {
+  body {
+    margin: 30px 0 50px 0;
+  }
+}
+@page {
+  size: A4;
+  margin: 15mm 0 20mm 0;
+}
+a {
+  color: #222222;
+  font-weight: inherit;
+  text-decoration: none;
+}
+a[href] {
+  text-decoration: underline;
+  text-decoration-color: #888888;
+}
+
+p, q {
+  line-height: 1.25em;
+}
+
+li {
+  line-height: 1.35em;
+}
+li:first-child {
+  margin-top: 0;
+}
+
+.content {
+  width: 1000px;
+  height: auto;
+  padding: 0 50px;
+  margin: 0 auto;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #222222;
+}
+
+.table {
+  width: 100%;
+  display: table;
+}
+.table .main {
+  display: table-cell;
+  width: 70%;
+  padding-right: 50px;
+}
+.table .side {
+  display: table-cell;
+  width: 30%;
+  padding-left: 50px;
+  text-align: right;
+}
+
+.summary {
+  font-size: 15px;
+}
+.summary:empty {
+  display: none;
+}
+
+.section-title {
+  font-size: 26px;
+  font-weight: normal;
+  margin: 0 0 20px 0;
+}
+
+.margin-container-2:not(:first-child) {
+  margin-top: 20px;
+}
+
+.margin-container-3:not(:first-child) {
+  margin-top: 30px;
+}
+
+.margin-container-4:not(:first-child) {
+  margin-top: 50px;
+}
+
+.padding-container-2 {
+  padding: 20px 0;
+}
+
+.padding-top-container-2 {
+  padding-top: 20px;
+}
+
+.padding-bottom-container-2 {
+  padding-bottom: 20px;
+}
+
+.margin-text-1 {
+  margin-top: 2px;
+}
+.margin-text-1:empty {
+  display: none;
+}
+
+.margin-text-2 {
+  margin-top: 4px;
+}
+.margin-text-2:empty {
+  display: none;
+}
+
+.margin-text-3 {
+  margin-top: 6px;
+}
+.margin-text-3:empty {
+  display: none;
+}
+
+.margin-text-4 {
+  margin-top: 8px;
+}
+.margin-text-4:empty {
+  display: none;
+}
+
+.margin-text-5 {
+  margin-top: 14px;
+}
+.margin-text-5:empty {
+  display: none;
+}
+
+.no-break {
+  break-inside: avoid;
+}
+
+.no-alone-1 {
+  break-inside: avoid;
+}
+.no-alone-1::after {
+  content: "";
+  display: block;
+  height: 75px;
+  margin-bottom: -75px;
+}
+
+.no-alone-2 {
+  break-inside: avoid;
+}
+.no-alone-2::after {
+  content: "";
+  display: block;
+  height: 150px;
+  margin-bottom: -150px;
+}
+
+.markdown h1 {
+  font-size: 160%;
+  font-weight: bolder;
+}
+.markdown h2 {
+  font-size: 150%;
+  font-weight: bolder;
+}
+.markdown h3 {
+  font-size: 140%;
+  font-weight: bolder;
+}
+.markdown h4 {
+  font-size: 130%;
+  font-weight: bold;
+}
+.markdown h5 {
+  font-size: 120%;
+  font-weight: bold;
+}
+.markdown h6 {
+  font-size: 110%;
+  font-weight: bold;
+}
+.markdown ul, .markdown ol {
+  margin-left: 20px;
+}
+.markdown img {
+  display: block;
+  margin: 20px auto;
+  max-width: 1000px;
+  text-align: center;
+}
+.markdown blockquote {
+  margin: 20px 0;
+  padding: 15px 20px;
+}
+.markdown blockquote p {
+  display: inline;
+}
+.markdown code {
+  font-family: monospace;
+}
+
+.main .highlights {
+  width: auto;
+  display: block;
+  padding: 0 10px;
+  margin-bottom: 0;
+}
+.main .highlights ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.main .highlights li {
+  padding-left: 1em;
+  text-indent: -1em;
+  font-size: 14px;
+  list-style: none;
+  left: 0;
+}
+.main .highlights li:before {
+  content: "· ";
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.main .columnar {
+  columns: 2;
+  column-width: 310px;
+  column-gap: 10px;
+}
+.main .left {
+  display: table-cell;
+}
+.main .left .title {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+}
+.main .left .subtitle {
+  font-size: 16px;
+  font-weight: lighter;
+  display: block;
+}
+.main .right {
+  text-align: right;
+  display: table-cell;
+}
+.main .right .date {
+  font-size: 15px;
+  font-weight: lighter;
+  white-space: nowrap;
+}
+
+.basics .main {
+  vertical-align: middle;
+}
+.basics .main .name {
+  font-size: 80px;
+  line-height: 1em;
+  font-weight: bold;
+  display: block;
+  margin-left: -5.6px;
+}
+.basics .main .label {
+  font-size: 29.5px;
+  line-height: 1em;
+  font-weight: lighter;
+  display: block;
+  margin-left: -1.6px;
+  margin-top: 12px;
+}
+.basics .side {
+  vertical-align: middle;
+  padding-left: 0;
+  padding-top: 15px;
+}
+.basics .side .contact {
+  list-style-type: none;
+}
+.basics .side .contact li {
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+.links ul {
+  list-style: none;
+}
+.links ul li {
   font-size: 14px;
 }
 
-body {
-  color: var(--primaryColor);
-  display: grid;
-  font: 1em/1.5 Lato, sans-serif;
-  gap: 2em;
-  grid-template-columns:
-    [full-start]
-    1fr
-    [main-start side-start]
-    minmax(min-content, 12em)
-    [side-end content-start]
-    minmax(min-content, 36em)
-    [main-end content-end]
-    1fr
-    [full-end];
-  grid-template-rows: auto [content] 0;
-  margin-bottom: 4em;
+.education .title {
+  font-size: 15px;
+}
+.education .institution {
+  font-size: 15px;
+  font-weight: lighter;
 }
 
-body::before {
-  content: '';
-  grid-column: full;
-  grid-row: content;
+.awards .header .title {
+  font-size: 15px;
+}
+.awards .header .awarder {
+  font-size: 15px;
+  font-weight: lighter;
+}
+.awards .summary {
+  font-size: 14px;
 }
 
-ol,
-ul {
-  padding-left: 1em;
+.certificates .name {
+  font-size: 15px;
+}
+.certificates .issuer {
+  font-size: 15px;
+  font-weight: lighter;
 }
 
-li + li {
-  margin-top: 0.2em;
+.skills .section-title {
+  margin: 0;
 }
-
-li::marker {
-  color: var(--mutedColor);
+.skills .container {
+  display: block;
+  columns: 2;
+  column-gap: 10px;
 }
-
-a {
-  color: var(--linkColor);
-  text-decoration: none;
-  transition: color 0.2s;
+.skills .container .article {
+  break-inside: avoid-column;
+  min-width: 120px;
+  padding-top: 20px;
 }
-
-a:focus,
-a:hover {
-  color: var(--accentColor);
+.skills .container .article span {
+  display: block;
+  font-size: 18px;
+  font-weight: lighter;
 }
-
-h1,
-h2,
-h3,
-h5 {
-  font-weight: normal;
-}
-
-h1,
-h2,
-h3 {
-  line-height: 1.2;
-}
-
-h1 {
-  font-size: var(--scale5);
-}
-
-h2 {
-  color: var(--secondaryColor);
-  font-size: var(--scale4);
-}
-
-h3 {
-  color: var(--accentColor);
-  font-size: var(--scale3);
-  grid-column: side;
-  margin-bottom: 1rem;
-}
-
-h4 {
-  font-size: var(--scale2);
-}
-
-h5 {
-  font-size: var(--scale1);
-}
-
-h6 {
-  font-size: var(--scale0);
-}
-
-blockquote {
-  border-left: 0.2em solid var(--mutedColor);
-  padding-left: 1em;
-}
-
-cite {
-  color: var(--secondaryColor);
-  font-style: inherit;
-}
-
-cite::before {
-  content: '— ';
-}
-
-.masthead {
-  background: var(--mutedColor);
-  display: inherit;
-  gap: inherit;
-  grid-column: full;
-  grid-template-columns: inherit;
-  padding: 4em 0;
-  row-gap: 0;
-}
-
-.masthead > *,
-section {
-  grid-column: main;
-}
-
-article > * + *,
-blockquote > * + * {
-  margin-top: 0.6em;
-}
-
-.stack {
-  display: grid;
-  gap: 1.5em;
-}
-
-.grid-list {
-  display: grid;
-  gap: 1em;
-}
-
-.spaced-list {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.spaced-list:first-child::before {
-  border-bottom: 1px solid var(--mutedColor);
-  content: '';
-  flex-grow: 1;
-  margin: 0 1em;
-  order: 1;
-}
-
-.spaced-list > :nth-child(2) {
-  order: 2;
-}
-
-.tag-list {
-  display: flex;
-  flex-wrap: wrap;
+.skills .container .article li {
+  font-size: 14px;
   list-style: none;
-  padding: 0;
 }
 
-.tag-list > li {
-  background: var(--mutedColor);
-  margin: 0 0.2em 0.2em 0;
-  padding: 0.2em 0.6em;
+.languages ul {
+  list-style: none;
+}
+.languages ul li {
+  font-size: 14px;
 }
 
-@media print, (min-width: 48em) {
-  h3 {
-    text-align: right;
-    margin-bottom: inherit;
-  }
-
-  .masthead > *,
-  section {
-    grid-column: content;
-  }
-
-  section {
-    display: contents;
-  }
-
-  .grid-list {
-    grid-template-columns: 1fr 1fr;
-  }
+.interests ul {
+  list-style: none;
 }
-</style>
-  </head>
-  <body>
-      <header class="masthead">
-          <h1>Geoff Clayton</h1>
-          <h2>Programmer</h2>
-      </header>
-      <section id="contact">
-        <h3>Contact</h3>
-        <div class="grid-list">
-            <div>
-              <h4>Email</h4>
-              <a href="mailto:jefc_uk@hotmail.com">jefc_uk@hotmail.com</a>
-            </div>
-            <div>
-              <h4>Phone</h4>
-              (912) 555-4321
-            </div>
-            <div>
-              <h4>Website</h4>
-              <a href="http://richardhendricks.example.com">richardhendricks.example.com</a>
-            </div>
-        </div>
-      </section>
-        <section id="about">
-          <h3>About</h3>
-          <article>
-            <p>Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!</p>
-          </article>
-        </section>
-        <section id="profiles">
-          <h3>Profiles</h3>
-          <div class="grid-list">
-              <div>
-                  <h4>Twitter</h4>
-                    neutralthoughts
-              </div>
-              <div>
-                  <h4>SoundCloud</h4>
-                    <a href="https://soundcloud.example.com/dandymusicnl">dandymusicnl</a>
-              </div>
-          </div>
-        </section>
+.interests ul li {
+  font-size: 14px;
+}
 
-      <section id="work">
-        <h3>Work</h3>
-        <div class="stack">
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Pied Piper</h4>
-                  <span>
-                    <time datetime="2013-12-01">Dec 2013</time> –
-                    <time datetime="2014-12-01">Dec 2014</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>CEO/President</strong>
-                    <a href="http://piedpiper.example.com">piedpiper.example.com</a>
-                </div>
-              </header>
-                <p>Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Build an algorithm for artist to detect if their music was violating copy right infringement laws</li>
-                    <li>Successfully won Techcrunch Disrupt</li>
-                    <li>Optimized an algorithm that holds the current world record for Weisman Scores</li>
-                </ul>
-            </article>
-        </div>
-      </section>
-      <section id="volunteer">
-        <h3>Volunteer</h3>
-        <div class="stack">
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>CoderDojo</h4>
-                  <span>
-                    <time datetime="2012-01-01">Jan 2012</time> –
-                    <time datetime="2013-01-01">Jan 2013</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Teacher</strong>
-                    <a href="http://coderdojo.example.com/">coderdojo.example.com</a>
-                </div>
-              </header>
-                <p>Global movement of free coding clubs for young people.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Awarded &#x27;Teacher of the Month&#x27;</li>
-                </ul>
-            </article>
-        </div>
-      </section>
-      <section id="education">
-        <h3>Education</h3>
-        <div class="stack">
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>University of Oklahoma</h4>
-                  <span>
-                    <time datetime="2011-06-01">Jun 2011</time> –
-                    <time datetime="2014-01-01">Jan 2014</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Information Technology</strong>
-                    <a href="https://www.ou.edu/">www.ou.edu</a>
-                </div>
-              </header>
-                <p>Bachelor</p>
-                <h5>Courses</h5>
-                <ul>
-                    <li>DB1101 - Basic SQL</li>
-                    <li>CS2011 - Java Introduction</li>
-                </ul>
-            </article>
-        </div>
-      </section>
-      <section id="projects">
-        <h3>Projects</h3>
-        <div class="stack">
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Miss Direction</h4>
-                  <span>
-                    <time datetime="2016-08-24">Aug 2016</time> –
-                    <time datetime="2016-08-24">Aug 2016</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                  <span>
-                      <strong>Team lead, Designer</strong>
-                      at <strong>Smoogle</strong>
-                  </span>
-                    <a href="missdirection.example.com">missdirection.example.com</a>
-                </div>
-              </header>
-                <p>A mapping engine that misguides you</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Won award at AIHacks 2016</li>
-                    <li>Built by all women team of newbie programmers</li>
-                    <li>Using modern technologies such as GoogleMaps, Chrome Extension and Javascript</li>
-                </ul>
-            </article>
-        </div>
-      </section>
-      <section id="awards">
-        <h3>Awards</h3>
-        <div class="stack">
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Digital Compression Pioneer Award</h4>
-                    <time datetime="2014-11-01">Nov 2014</time>
-                </div>
-                <div class="spaced-list">
-                    <div>
-                      Awarded by <strong>Techcrunch</strong>
-                    </div>
-                </div>
-              </header>
-                <p>There is no spoon.</p>
-            </article>
-        </div>
-      </section>
-      <section id="publications">
-        <h3>Publications</h3>
-        <div class="stack">
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Video compression for 3d media</h4>
-                    <time datetime="2014-10-01">Oct 2014</time>
-                </div>
-                <div class="spaced-list">
-                    <span>
-                      Published by <strong>Hooli</strong>
-                    </span>
-                    <a href="http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)">en.wikipedia.org/wiki/Silicon_Valley_(TV_series)</a>
-                </div>
-              </header>
-                <p>Innovative middle-out compression algorithm that changes the way we store data.</p>
-            </article>
-        </div>
-      </section>
-      <section id="skills">
-        <h3>Skills</h3>
-        <div class="grid-list">
-            <div>
-                <h4>Web Development</h4>
-                <ul class="tag-list">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-                </ul>
-            </div>
-            <div>
-                <h4>Compression</h4>
-                <ul class="tag-list">
-                    <li>Mpeg</li>
-                    <li>MP4</li>
-                    <li>GIF</li>
-                </ul>
-            </div>
-        </div>
-      </section>
-      <section id="languages">
-        <h3>Languages</h3>
-        <div class="grid-list">
-            <div>
-                <h4>English</h4>
-              Native speaker
-            </div>
-        </div>
-      </section>
-      <section id="interests">
-        <h3>Interests</h3>
-        <div class="grid-list">
-            <div>
-                <h4>Wildlife</h4>
-                <ul class="tag-list">
-                    <li>Ferrets</li>
-                    <li>Unicorns</li>
-                </ul>
-            </div>
-        </div>
-      </section>
-      <section id="references">
-        <h3>References</h3>
-        <div class="stack">
-              <blockquote>
-                <p>It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company.</p>
-                  <p>
-                    <cite>Erlich Bachman</cite>
-                  </p>
-              </blockquote>
-        </div>
-      </section>
-  </body>
-</html>
+.references .name {
+  font-size: 15px;
+}
+.references q {
+  font-size: 14.5px;
+  font-weight: lighter;
+  font-style: italic;
+}</style><title>Geoff Clayton CV</title></head><body><div class="content"><div class="basics"><div class="table padding-bottom-container-2"><div class="main"><span class="name">Geoff Clayton</span><span class="label">CTO | Platform Lead | Software Engineer</span></div><div class="side"><ul class="contact"><li>+44 7813 894211</li><li>me@geoffclayton.com</li><li class="margin-text-5">Axminster, Devon, UK</li></ul></div></div><div class="summary markdown padding-container-2"><p>A senior technology leader and CTO with over a decade of experience shaping end-to-end architecture, delivery and cyber security for a successful end-to-end analytics platform. Experienced in setting company-wide technical strategy, leading engineering teams and delivering technology improvements that create measurable value. Geoff is a versatile communicator able to align technical decisions with organisational goals in a variety of stakeholder contexts.</p>
+</div></div><div class="table padding-top-container-2"><div class="main"><div class="work margin-container-4"><p class="section-title no-alone-2">Professional experience</p><div class="container"><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">CTO</span><span class="subtitle margin-text-1"><a href="https://brightanalytics.com/">Bright Analytics</a> · London</span></div><div class="right"><span class="date">Jan 2020 - Present</span></div></div></div><div class="summary markdown margin-text-4"></div><ul class="highlights margin-text-4 no-break"><li>Handled all technology and software engineering operations across the company; defined architecture, delivery standards, and cyber security practices for the platform.</li><li>Developed and executed the product roadmap, introducing scalable microservices and leveraging cloud products to support business growth and evolving usage patterns.</li><li>Implemented process improvements and technical best practices, increasing development efficiency and reliability of product delivery.</li><li>Recruited, mentored, and managed the engineering function, building a high-performing, diverse and geographically distributed team.</li><li>Oversaw 3rd party security audits and led remediation efforts, strengthening the platform’s security posture and compliance.</li><li>Delivered measurable improvements in platform stability, operational efficiency, and client-facing analytics capabilities.</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Platform Architect</span><span class="subtitle margin-text-1"><a href="https://brightanalytics.com/">Bright Analytics</a></span></div><div class="right"><span class="date">Jan 2017 - Dec 2019</span></div></div></div><div class="summary markdown margin-text-4"></div><ul class="highlights margin-text-4 no-break"><li>Designed a new iteration of the platform, moving from the legacy monolithic architecture to a mix of microservices and full stack apps.</li><li>Hired and managed contractors and permanent employees in a variety of roles.</li><li>Led requirements gathering and took on Project Management duties when required.</li><li>Created documentation for both internal and external non-technical stakeholders.</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Lead Developer</span><span class="subtitle margin-text-1"><a href="https://brightanalytics.com/">Bright Analytics</a></span></div><div class="right"><span class="date">Jan 2012 - Dec 2017</span></div></div></div><div class="summary markdown margin-text-4"></div><ul class="highlights margin-text-4 no-break"><li>Full-stack software development.</li><li>Team leaderhip and mentoring. Process development and team culture.</li><li>Devised a novel approach to supporting customied semenatic layer configuration across multiple tenants.</li><li>Designed and built from scratch a flexible MySQL based reporting engine.</li><li>Data visualisation development.</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Business Services Analyst</span><span class="subtitle margin-text-1"><a href="https://hmv.com/">HMV UK</a> · London</span></div><div class="right"><span class="date">Jan 2009 - May 2012</span></div></div></div><div class="summary markdown margin-text-4"></div><ul class="highlights margin-text-4 no-break"><li>2nd / 3rd line application support</li><li>EDI</li><li>EPOS</li><li>AS/400</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Windows Infrastructure Analyst</span><span class="subtitle margin-text-1"><a href="">HMV UK</a></span></div><div class="right"><span class="date">Sep 2007 - Jan 2009</span></div></div></div><div class="summary markdown margin-text-4"></div><ul class="highlights margin-text-4 no-break"><li>Desktop IT Support</li><li>1st line Windows server support</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Systems Support Analyst</span><span class="subtitle margin-text-1"><a href="">HMV UK</a></span></div><div class="right"><span class="date">May 2005 - Sep 2007</span></div></div></div><div class="summary markdown margin-text-4"></div><ul class="highlights margin-text-4 no-break"><li>Helpdesk phone &amp; email support for store and Head Office users</li><li>Out of hours support</li></ul></div></div></div><div class="projects margin-container-4"><p class="section-title no-alone-2">Side projects</p><div class="container"><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title"></span><span class="subtitle margin-text-1"><a href="https://wwwww.today">wwwww.today</a></span></div><div class="right"><span class="date">Apr 2023 - Present</span></div></div></div><div class="summary markdown margin-text-4"><p>Tracks Google autocomplete results for the 5 &quot;W&quot;s (Who, What, When, Where, Why)</p>
+</div><ul class="highlights columnar margin-text-4 no-break"><li>Laravel 10</li><li>Puppeteer</li><li>Side / hobby project</li><li>Analytics</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title"></span><span class="subtitle margin-text-1"><a href="https://radio-tracker.geoffclayton.com">radio-tracker</a></span></div><div class="right"><span class="date">Aug 2022 - Present</span></div></div></div><div class="summary markdown margin-text-4"><p>BBC 6 Music 'now playing' app with favourites tracking - WIP</p>
+</div><ul class="highlights columnar margin-text-4 no-break"><li>Elixir</li><li>Phoenix LiveView</li><li>Side / hobby project</li></ul></div></div></div></div><div class="side"><div class="skills margin-container-4"><p class="section-title no-alone-1">Technical skills</p><div class="container"><div class="article no-break"><span>Web development</span><ul class="margin-text-2"><li>PHP 8</li><li>Laravel 10</li><li>HTML</li><li>CSS</li><li>Javascript</li><li>React</li></ul></div><div class="article no-break"><span>Other languages</span><ul class="margin-text-2"><li>Typescript</li><li>Elixir</li><li>Bash</li><li>Python</li></ul></div><div class="article no-break"><span>Database</span><ul class="margin-text-2"><li>SQL</li><li>MongoDB</li><li>Elastic Search</li><li>Redis</li><li>Snowflake</li></ul></div><div class="article no-break"><span>Ops</span><ul class="margin-text-2"><li>AWS</li><li>Linux (Ubuntu)</li><li>Docker</li><li>Vagrant</li><li>SSL</li><li>nginx</li><li>DNS</li><li>CI/CD</li><li>DX (developer experience)</li></ul></div></div></div><div class="education margin-container-4"><p class="section-title no-alone-1">Education</p><div class="container"><div class="article margin-container-2 no-break"><div class="title markdown"><p>MSc, Cyber Security Analytics - with Distinction (2023-2025)</p>
+</div><span class="institution margin-text-2"><a href="https://www.exeter.ac.uk/">University of Exeter</a></span></div><div class="article margin-container-2 no-break"><div class="title markdown"><p>BSc (hons), Maths &amp; Computing - First-class honours (2012-2018)</p>
+</div><span class="institution margin-text-2"><a href="https://www.open.ac.uk/">The Open University</a></span></div><div class="article margin-container-2 no-break"><div class="title markdown"><p>GCSE &amp; A Level</p>
+</div><span class="institution margin-text-2"><a href="https://www.abingdon.org.uk/">Abingdon School</a></span></div></div></div><!--include pug/references--><div class="interests margin-container-4 no-break"><p class="section-title no-alone-1">Interests</p><div class="container"><ul><li class="article margin-text-2">Computers</li><li class="article margin-text-2">Music</li><li class="article margin-text-2">Photography</li><li class="article margin-text-2">Swimming</li><li class="article margin-text-2">Science fiction</li><li class="article margin-text-2">DIY &amp; gardening</li></ul></div></div><div class="links margin-container-4 no-break"><p class="section-title no-alone-1">Links</p><div class="container"><ul><li class="article"><a href="https://github.com/jefc1111"><strong>github.com</strong>/jefc1111</a></li><li class="article margin-text-4"><a href="https://www.linkedin.com/in/geoff-clayton-b0222982/"><strong>linkedin.com</strong>/in/geoff-clayton-b0222982</a></li><li class="article margin-text-4"><a href="https://geoffclayton.com"><strong>geoffclayton.com</strong></a></li><li class="article margin-text-4"><a href="https://photography.geoffclayton.com"><strong>photography.geoffclayton.com</strong></a></li></ul></div></div></div></div></div></body></html>

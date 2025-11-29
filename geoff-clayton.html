@@ -1,0 +1,373 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><style>@charset "UTF-8";
+/* Workaround for 'break-before:avoid' */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+span, q {
+  display: block;
+}
+
+p {
+  margin: 0;
+}
+
+@media not print {
+  body {
+    margin: 30px 0 50px 0;
+  }
+}
+@page {
+  size: A4;
+  margin: 15mm 0 20mm 0;
+}
+a {
+  color: #222222;
+  font-weight: inherit;
+  text-decoration: none;
+}
+a[href] {
+  text-decoration: underline;
+  text-decoration-color: #888888;
+}
+
+p, q {
+  line-height: 1.25em;
+}
+
+li {
+  line-height: 1.35em;
+}
+li:first-child {
+  margin-top: 0;
+}
+
+.content {
+  width: 1000px;
+  height: auto;
+  padding: 0 50px;
+  margin: 0 auto;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #222222;
+}
+
+.table {
+  width: 100%;
+  display: table;
+}
+.table .main {
+  display: table-cell;
+  width: 70%;
+  padding-right: 50px;
+}
+.table .side {
+  display: table-cell;
+  width: 30%;
+  padding-left: 50px;
+  text-align: right;
+}
+
+.summary {
+  font-size: 15px;
+}
+.summary:empty {
+  display: none;
+}
+
+.section-title {
+  font-size: 26px;
+  font-weight: normal;
+  margin: 0 0 20px 0;
+}
+
+.margin-container-2:not(:first-child) {
+  margin-top: 20px;
+}
+
+.margin-container-3:not(:first-child) {
+  margin-top: 30px;
+}
+
+.margin-container-4:not(:first-child) {
+  margin-top: 50px;
+}
+
+.padding-container-2 {
+  padding: 20px 0;
+}
+
+.padding-top-container-2 {
+  padding-top: 20px;
+}
+
+.padding-bottom-container-2 {
+  padding-bottom: 20px;
+}
+
+.margin-text-1 {
+  margin-top: 2px;
+}
+.margin-text-1:empty {
+  display: none;
+}
+
+.margin-text-2 {
+  margin-top: 4px;
+}
+.margin-text-2:empty {
+  display: none;
+}
+
+.margin-text-3 {
+  margin-top: 6px;
+}
+.margin-text-3:empty {
+  display: none;
+}
+
+.margin-text-4 {
+  margin-top: 8px;
+}
+.margin-text-4:empty {
+  display: none;
+}
+
+.margin-text-5 {
+  margin-top: 14px;
+}
+.margin-text-5:empty {
+  display: none;
+}
+
+.no-break {
+  break-inside: avoid;
+}
+
+.no-alone-1 {
+  break-inside: avoid;
+}
+.no-alone-1::after {
+  content: "";
+  display: block;
+  height: 75px;
+  margin-bottom: -75px;
+}
+
+.no-alone-2 {
+  break-inside: avoid;
+}
+.no-alone-2::after {
+  content: "";
+  display: block;
+  height: 150px;
+  margin-bottom: -150px;
+}
+
+.markdown h1 {
+  font-size: 160%;
+  font-weight: bolder;
+}
+.markdown h2 {
+  font-size: 150%;
+  font-weight: bolder;
+}
+.markdown h3 {
+  font-size: 140%;
+  font-weight: bolder;
+}
+.markdown h4 {
+  font-size: 130%;
+  font-weight: bold;
+}
+.markdown h5 {
+  font-size: 120%;
+  font-weight: bold;
+}
+.markdown h6 {
+  font-size: 110%;
+  font-weight: bold;
+}
+.markdown ul, .markdown ol {
+  margin-left: 20px;
+}
+.markdown img {
+  display: block;
+  margin: 20px auto;
+  max-width: 1000px;
+  text-align: center;
+}
+.markdown blockquote {
+  margin: 20px 0;
+  padding: 15px 20px;
+}
+.markdown blockquote p {
+  display: inline;
+}
+.markdown code {
+  font-family: monospace;
+}
+
+.main .highlights {
+  width: auto;
+  display: block;
+  padding: 0 10px;
+  margin-bottom: 0;
+  columns: 2;
+  column-width: 310px;
+  column-gap: 10px;
+}
+.main .highlights li {
+  font-size: 14px;
+  list-style: none;
+}
+.main .highlights li:before {
+  content: "· ";
+  vertical-align: middle;
+}
+.main .left {
+  display: table-cell;
+}
+.main .left .title {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+}
+.main .left .subtitle {
+  font-size: 16px;
+  font-weight: lighter;
+  display: block;
+}
+.main .right {
+  text-align: right;
+  display: table-cell;
+}
+.main .right .date {
+  font-size: 15px;
+  font-weight: lighter;
+  white-space: nowrap;
+}
+
+.basics .main {
+  vertical-align: middle;
+}
+.basics .main .name {
+  font-size: 80px;
+  line-height: 1em;
+  font-weight: bold;
+  display: block;
+  margin-left: -5.6px;
+}
+.basics .main .label {
+  font-size: 40px;
+  line-height: 1em;
+  font-weight: lighter;
+  display: block;
+  margin-left: -1.6px;
+}
+.basics .side {
+  vertical-align: middle;
+  padding-left: 0;
+  padding-top: 15px;
+}
+.basics .side .contact {
+  list-style-type: none;
+}
+.basics .side .contact li {
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+.links ul {
+  list-style: none;
+}
+.links ul li {
+  font-size: 14px;
+}
+
+.education .title {
+  font-size: 15px;
+}
+.education .institution {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.awards .header .title {
+  font-size: 15px;
+}
+.awards .header .awarder {
+  font-size: 15px;
+  font-weight: lighter;
+}
+.awards .summary {
+  font-size: 14px;
+}
+
+.certificates .name {
+  font-size: 15px;
+}
+.certificates .issuer {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.skills .section-title {
+  margin: 0;
+}
+.skills .container {
+  display: block;
+  columns: 2;
+  column-gap: 10px;
+}
+.skills .container .article {
+  break-inside: avoid-column;
+  min-width: 120px;
+  padding-top: 20px;
+}
+.skills .container .article span {
+  display: block;
+  font-size: 18px;
+  font-weight: lighter;
+}
+.skills .container .article li {
+  font-size: 14px;
+  list-style: none;
+}
+
+.languages ul {
+  list-style: none;
+}
+.languages ul li {
+  font-size: 14px;
+}
+
+.interests ul {
+  list-style: none;
+}
+.interests ul li {
+  font-size: 14px;
+}
+
+.references .name {
+  font-size: 15px;
+}
+.references q {
+  font-size: 14.5px;
+  font-weight: lighter;
+  font-style: italic;
+}</style><title>Resume Geoff Clayton – CTO / Software Engineer</title></head><body><div class="content"><div class="basics"><div class="table padding-bottom-container-2"><div class="main"><span class="name">Geoff Clayton</span><span class="label">CTO / Software Engineer</span></div><div class="side"><ul class="contact"><li>+44 7813 894211</li><li>me@geoffclayton.com</li><li class="margin-text-5">Axminster, Devon, UK</li></ul></div></div><div class="summary markdown padding-container-2"><p>A senior technology leader and CTO with over a decade of experience shaping end-to-end architecture, delivery and cyber security for a successful end-to-end analytics platform. Experienced in setting company-wide technical strategy, leading engineering teams and delivering technology improvements that create measurable value. Geoff is a versatile communicator able to align technical decisions with organisational goals in a variety of stakeholder contexts.</p>
+</div></div><div class="table padding-top-container-2"><div class="main"><div class="work margin-container-4"><p class="section-title no-alone-2">Experience</p><div class="container"><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">CTO</span><span class="subtitle margin-text-1"><a href="https://brightanalytics.com/">Bright Analytics</a> · London</span></div><div class="right"><span class="date">Jan 2020 - Present</span></div></div></div><div class="summary markdown margin-text-4"></div><ul class="highlights margin-text-4 no-break"><li>Handled all technology and software engineering operations across the company; defined architecture, delivery standards, and cyber security practices for the platform.</li><li>Developed and executed the product roadmap, introducing scalable microservices and leveraging cloud products to support business growth and evolving usage patterns.</li><li>Implemented process improvements and technical best practices, increasing development efficiency and reliability of product delivery.</li><li>Recruited, mentored, and managed the engineering function, building a high-performing, diverse and geographically distributed team.</li><li>Oversaw 3rd party security audits and led remediation efforts, strengthening the platform’s security posture and compliance.</li><li>Delivered measurable improvements in platform stability, operational efficiency, and client-facing analytics capabilities.</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Platform Architect</span><span class="subtitle margin-text-1"><a href="https://brightanalytics.com/">Bright Analytics</a></span></div><div class="right"><span class="date">Jan 2017 - Dec 2019</span></div></div></div><div class="summary markdown margin-text-4"></div><ul class="highlights margin-text-4 no-break"><li>Designed a new iteration of the platform, moving from the legacy monolithic architecture to a mix of microservices and full stack apps.</li><li>Hired and managed contractors and permanent employees in a variety of roles.</li><li>Led requirements gathering and took on Project Management duties when required.</li><li>Created documentation for both internal and external non-technical stakeholders.</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Lead Developer</span><span class="subtitle margin-text-1"><a href="https://brightanalytics.com/">Bright Analytics</a></span></div><div class="right"><span class="date">Jan 2012 - Dec 2017</span></div></div></div><div class="summary markdown margin-text-4"></div><ul class="highlights margin-text-4 no-break"><li>Full-stack software development.</li><li>Team leaderhip and mentoring. Process development and team culture.</li><li>Devised a novel approach to supporting customied semenatic layer configuration across multiple tenants.</li><li>Designed and built from scratch a flexible MySQL based reporting engine.</li><li>Data visualisation development.</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Business Services Analyst</span><span class="subtitle margin-text-1"><a href="https://hmv.com/">HMV UK</a> · London</span></div><div class="right"><span class="date">Jan 2009 - May 2012</span></div></div></div><div class="summary markdown margin-text-4"></div><ul class="highlights margin-text-4 no-break"><li>2nd / 3rd line application support</li><li>EDI</li><li>EPOS</li><li>AS/400</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Windows Infrastructure Analyst</span><span class="subtitle margin-text-1"><a href="">HMV UK</a></span></div><div class="right"><span class="date">Sep 2007 - Jan 2009</span></div></div></div><div class="summary markdown margin-text-4"></div><ul class="highlights margin-text-4 no-break"><li>Desktop IT Support</li><li>1st line Windows server support</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Systems Support Analyst</span><span class="subtitle margin-text-1"><a href="">HMV UK</a></span></div><div class="right"><span class="date">May 2005 - Sep 2007</span></div></div></div><div class="summary markdown margin-text-4"></div><ul class="highlights margin-text-4 no-break"><li>Helpdesk phone &amp; email support for store and Head Office users</li><li>Out of hours support</li></ul></div></div></div><div class="projects margin-container-4"><p class="section-title no-alone-2">Projects</p><div class="container"><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title"></span><span class="subtitle margin-text-1"><a href="https://wwwww.today">wwwww.today</a></span></div><div class="right"><span class="date">Apr 2023 - Present</span></div></div></div><div class="summary markdown margin-text-4"><p>Tracks Google autocomplete results for the 5 &quot;W&quot;s (Who, What, When, Where, Why)</p>
+</div><ul class="highlights margin-text-4 no-break"><li>Laravel 10</li><li>Puppeteer</li><li>Side / hobby project</li><li>Analytics</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title"></span><span class="subtitle margin-text-1"><a href="https://radio-tracker.geoffclayton.com">radio-tracker</a></span></div><div class="right"><span class="date">Aug 2022 - Present</span></div></div></div><div class="summary markdown margin-text-4"><p>BBC 6 Music 'now playing' app with favourites tracking - WIP</p>
+</div><ul class="highlights margin-text-4 no-break"><li>Elixir</li><li>Phoenix LiveView</li><li>Side / hobby project</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title"></span><span class="subtitle margin-text-1"><a href="https://github.com/jefc1111/zenbot-sim-runner">Zenbot Sim Runner</a></span></div><div class="right"><span class="date">Apr 2021 - Mar 2022</span></div></div></div><div class="summary markdown margin-text-4"><p>Backtesting aggregation and analysis platform</p>
+</div><ul class="highlights margin-text-4 no-break"><li>Home lab</li><li>Server build &amp; management</li><li>Paralellisation</li><li>Data analysis</li><li>Self-learning</li><li>Automation</li><li>Auto-scaling (AWS Fargate)</li></ul></div></div></div></div><div class="side"><div class="skills margin-container-4"><p class="section-title no-alone-1">Skills</p><div class="container"><div class="article no-break"><span>Web development</span><ul class="margin-text-2"><li>PHP 8</li><li>Laravel 10</li><li>HTML</li><li>CSS</li><li>Javascript</li><li>React</li></ul></div><div class="article no-break"><span>Other languages</span><ul class="margin-text-2"><li>Typescript</li><li>Elixir</li><li>Bash</li><li>Python</li></ul></div><div class="article no-break"><span>Database</span><ul class="margin-text-2"><li>SQL</li><li>MongoDB</li><li>Elastic Search</li><li>Redis</li><li>Snowflake</li></ul></div><div class="article no-break"><span>Ops</span><ul class="margin-text-2"><li>AWS</li><li>Linux (Ubuntu)</li><li>Docker</li><li>Vagrant</li><li>SSL</li><li>nginx</li><li>DNS</li><li>CI/CD</li><li>DX (developer experience)</li></ul></div></div></div><div class="education margin-container-4"><p class="section-title no-alone-1">Education</p><div class="container"><div class="article margin-container-2 no-break"><div class="title markdown"><p>MSc, Cyber Security Analytics - with Distinction (2023-2025)</p>
+</div><span class="institution margin-text-2"><a href="https://www.exeter.ac.uk/">University of Exeter</a></span></div><div class="article margin-container-2 no-break"><div class="title markdown"><p>BSc (hons), Maths &amp; Computing - First-class honours (2012-2018)</p>
+</div><span class="institution margin-text-2"><a href="https://www.open.ac.uk/">The Open University</a></span></div><div class="article margin-container-2 no-break"><div class="title markdown"><p>GCSE &amp; A Level</p>
+</div><span class="institution margin-text-2"><a href="https://www.abingdon.org.uk/">Abingdon School</a></span></div></div></div><div class="references margin-container-4"><p class="section-title no-alone-2">References</p><div class="container"><div class="article margin-container-2 no-break"><span class="name"></span><q class="margin-text-2"></q></div></div></div><div class="interests margin-container-4 no-break"><p class="section-title no-alone-1">Interests</p><div class="container"><ul><li class="article margin-text-2">Computers</li><li class="article margin-text-2">Music</li><li class="article margin-text-2">Photography</li><li class="article margin-text-2">Swimming</li><li class="article margin-text-2">Science fiction</li><li class="article margin-text-2">DIY &amp; gardening</li></ul></div></div><div class="links margin-container-4 no-break"><p class="section-title no-alone-1">Links</p><div class="container"><ul><li class="article"><a href="https://github.com/jefc1111"><strong>github.com</strong>/jefc1111</a></li><li class="article margin-text-4"><a href="https://www.linkedin.com/in/geoff-clayton-b0222982/"><strong>linkedin.com</strong>/in/geoff-clayton-b0222982</a></li><li class="article margin-text-4"><a href="https://geoffclayton.com"><strong>geoffclayton.com</strong></a></li><li class="article margin-text-4"><a href="https://photography.geoffclayton.com"><strong>photography.geoffclayton.com</strong></a></li></ul></div></div></div></div></div></body></html>
