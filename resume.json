@@ -321,30 +321,6 @@
       ],
       "entity": "",
       "type": "application"
-    },
-    {
-      "name": "Zenbot Sim Runner",
-      "description": "Backtesting aggregation and analysis platform",
-      "highlights": [
-        "Home lab",
-        "Server build & management",
-        "Paralellisation",
-        "Data analysis",
-        "Self-learning",
-        "Automation",
-        "Auto-scaling (AWS Fargate)"
-      ],
-      "keywords": [
-        
-      ],
-      "startDate": "2021-04-01",
-      "endDate": "2022-03-01",
-      "url": "https://github.com/jefc1111/zenbot-sim-runner",
-      "roles": [
-        
-      ],
-      "entity": "",
-      "type": "application"
     }
   ],
   "meta": {
