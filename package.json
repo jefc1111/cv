@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Geoff Clayton's CV",
   "main": "index.js",
+  "NONSENSE": "github:jefc1111/jsonresume-theme-actual-mod",
   "dependencies": {
-    "jsonresume-theme-actual": "^0.1.8",
+    "jsonresume-theme-actual": "file:../jsonresume-theme-actual-mod",
     "jsonresume-theme-caffeine": "^1.2.3",
     "resume-cli": "^3.0.6"
   },
