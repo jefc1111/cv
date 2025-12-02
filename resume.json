@@ -7,7 +7,7 @@
     "email": "me@geoffclayton.com",
     "phone": "+44 7813 894211",
     "url": "https://github.com/jefc1111",
-    "summary": "A senior technology leader and CTO with over a decade of experience shaping end-to-end architecture, delivery and cyber security for a successful end-to-end analytics platform. Experienced in setting company-wide technical strategy, leading engineering teams and delivering technology improvements that create measurable value. Geoff is a versatile communicator able to align technical decisions with organisational goals in a variety of stakeholder contexts.",
+    "summary": "A career technologist and CTO with over a decade of experience shaping end-to-end architecture, delivery and cyber security for a successful end-to-end analytics platform. Experienced in setting company-wide technical strategy, leading engineering teams and delivering technology improvements that create measurable value. Geoff is a versatile communicator able to align technical decisions with organisational goals in a variety of stakeholder contexts.",
     "location": {
       "address": "7 Newtons Orchard",
       "postalCode": "EX13 7UG",
@@ -45,7 +45,7 @@
       "summary": "",
       "highlights": [
         "Handled all technology and software engineering operations across the company; defined architecture, delivery standards, and cyber security practices for the platform.",
-        "Developed and executed the product roadmap, introducing scalable microservices and leveraging cloud products to support business growth and evolving usage patterns.",
+        "Developed and executed the product roadmap, introducing scalable microservices, leveraging cloud products to support business growth and evolving usage patterns.",
         "Implemented process improvements and technical best practices, increasing development efficiency and reliability of product delivery.",
         "Recruited, mentored, and managed the engineering function, building a high-performing, diverse and geographically distributed team.",
         "Oversaw 3rd party security audits and led remediation efforts, strengthening the platform’s security posture and compliance.",
@@ -63,7 +63,7 @@
       "summary": "",
       "highlights": [
         "Designed a new iteration of the platform, moving from the legacy monolithic architecture to a mix of microservices and full stack apps.",
-        "Hired and managed contractors and permanent employees in a variety of roles.",
+        "Hired and managed contractors and permanent employees in a variety of technical roles.",
         "Led requirements gathering and took on Project Management duties when required.",
         "Created documentation for both internal and external non-technical stakeholders."
       ]
@@ -79,8 +79,8 @@
       "summary": "",
       "highlights": [
         "Full-stack software development.",
-        "Team leaderhip and mentoring. Process development and team culture.",
-        "Devised a novel approach to supporting customied semenatic layer configuration across multiple tenants.",
+        "Team leaderhip and mentoring. Process development and setting team culture.",
+        "Devised and implemented a novel approach to supporting customised semantic layer configuration across multiple tenants.",
         "Designed and built from scratch a flexible MySQL based reporting engine.",
         "Data visualisation development."
       ]
@@ -96,9 +96,9 @@
       "summary": "",
       "highlights": [
         "2nd / 3rd line application support",
-        "EDI",
-        "EPOS",
-        "AS/400"
+        "EDI configuration and development",
+        "EPOS support",
+        "IBM AS/400 application support"
       ]
     },
     {
@@ -111,8 +111,8 @@
       "endDate": "2009-01-01",
       "summary": "",
       "highlights": [
-        "Desktop IT Support",
-        "1st line Windows server support"
+        "Microsoft Windows desktop IT Support",
+        "1st line Windows Server support"
       ]
     },
     {
@@ -125,14 +125,14 @@
       "endDate": "2007-09-01",
       "summary": "",
       "highlights": [
-        "Helpdesk phone & email support for store and Head Office users",
+        "Helpdesk phone & email support for retail store and Head Office users",
         "Out of hours support"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Exeter",
+      "institution": "The University of Exeter",
       "url": "https://www.exeter.ac.uk/",
       "area": "Cyber Security Analytics - with Distinction (2023-2025)",
       "studyType": "MSc",
@@ -182,12 +182,12 @@
       "name": "Web development",
       "level": "",
       "keywords": [
-        "PHP 8",
-        "Laravel 10",
+        "Object-orientated PHP", 
+        "Laravel framework",
         "HTML",
         "CSS",
         "Javascript",
-        "React"
+        "React, Vue UI frameworks"
       ]
     },
     {
@@ -204,19 +204,18 @@
       "name": "Database",
       "level": "",
       "keywords": [
-        "SQL",
+        "SQL (MySQL, PostgreSQL, MSSQL)",
         "MongoDB",
         "Elastic Search",
-        "Redis",
-        "Snowflake"
+        "Redis"
       ]
     },
     {
-      "name": "Devops",
+      "name": "Cloud ops / Devops",
       "level": "",
       "keywords": [
         "AWS",
-        "Linux (Ubuntu)",
+        "Linux desktop & server",
         "Docker",
         "Vagrant",
         "SSL",
@@ -266,7 +265,7 @@
       ]
     },
     {
-      "name": "DIY & gardening",
+      "name": "Vegetable gardening",
       "keywords": [
         "Carpentry",
         "Tiling",
