@@ -182,12 +182,12 @@
       "name": "Web development",
       "level": "",
       "keywords": [
-        "Object-orientated PHP", 
-        "Laravel framework",
+        "OO PHP", 
+        "Laravel",
         "HTML",
         "CSS",
         "Javascript",
-        "React, Vue UI frameworks"
+        "React"
       ]
     },
     {
@@ -204,7 +204,7 @@
       "name": "Database",
       "level": "",
       "keywords": [
-        "SQL (MySQL, PostgreSQL, MSSQL)",
+        "SQL",
         "MongoDB",
         "Elastic Search",
         "Redis"
@@ -215,7 +215,7 @@
       "level": "",
       "keywords": [
         "AWS",
-        "Linux desktop & server",
+        "Linux",
         "Docker",
         "Vagrant",
         "SSL",
