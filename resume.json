@@ -282,9 +282,9 @@
   "projects": [
     {
       "name": "DeltaKeep",
-      "description": "A novel front-end JavaScript asset reconnaissance framework.",
+      "description": "A novel git-based web reconnaissance framework for front-end JavaScript assets.",
       "highlights": [
-        "MSc reaearch project",
+        "MSc dissertation project",
         "Cybersecurity reconnaisance",
         "Blue team tooling",        
         "Automated de-minification / de-obfuscation",
