@@ -182,7 +182,7 @@
       "name": "Web development",
       "level": "",
       "keywords": [
-        "OO PHP", 
+        "PHP", 
         "Laravel",
         "HTML",
         "CSS",
@@ -284,10 +284,10 @@
       "name": "wwwww.today",
       "description": "Tracks Google autocomplete results for the 5 \"W\"s (Who, What, When, Where, Why)",
       "highlights": [
-        "Laravel 10",
-        "Puppeteer",
-        "Side / hobby project",
-        "Analytics"
+        "PHP / Laravel 10",
+        "AWS Lambda",
+        "Puppeteer / web scraping",
+        "Side / hobby project"
       ],
       "keywords": [
         
