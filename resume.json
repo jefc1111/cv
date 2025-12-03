@@ -303,6 +303,30 @@
       "type": "application"
     },
     {
+      "name": "Kilmington History Group (KHG)",
+      "description": "Digital archive and website implementation and maintenance for local history collective.",
+      "highlights": [
+        "Volunteer work",
+        "Community interest",
+        "Requirements gathering and technology selection",        
+        "Coaching non-technical users",
+        "Omeka S",
+        "AWS",
+        "Ongoing maintenance and continuity planning"
+      ],
+      "keywords": [
+        
+      ],
+      "startDate": "2022-10-01",
+      "endDate": "",
+      "url": "https://history.kilmingtonvillage.com/s/khg/page/welcome",
+      "roles": [
+        
+      ],
+      "entity": "",
+      "type": "application"
+    },
+    {
       "name": "wwwww.today",
       "description": "Tracks Google autocomplete results for the 5 \"W\"s (Who, What, When, Where, Why)",
       "highlights": [
