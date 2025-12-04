@@ -322,11 +322,11 @@
     },
     {
       "name": "wwwww.today",
-      "description": "Tracks Google autocomplete results for the 5 \"W\"s (Who, What, When, Where, Why).",
+      "description": "Tracks Google Search autocomplete results for the 5 \"W\"s (Who, What, When, Where, Why).",
       "highlights": [
-        "PHP / Laravel 10",
+        "PHP, Laravel 10",
         "AWS Lambda",
-        "Puppeteer / web scraping",
+        "Puppeteer, web scraping",
         "Side / hobby project"
       ],
       "keywords": [
