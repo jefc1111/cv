@@ -25,11 +25,6 @@
         "network": "personal homepage",
         "username": "geoff-clayton",
         "url": "https://geoffclayton.com"
-      },
-      {
-        "network": "photography homepage",
-        "username": "geoff-clayton",
-        "url": "https://photography.geoffclayton.com"
       }
     ]
   },
@@ -44,12 +39,12 @@
       "endDate": "",
       "summary": "",
       "highlights": [
-        "Handled all technology and software engineering operations across the company; defined architecture, delivery standards, and cyber security practices for the platform.",
+        "Handled all technology and software engineering operations across the company; defined architecture, delivery standards and cyber security practices for the platform.",
         "Developed and executed the product roadmap, introducing scalable microservices, leveraging cloud products to support business growth and evolving usage patterns.",
         "Implemented process improvements and technical best practices, increasing development efficiency and reliability of product delivery.",
         "Recruited, mentored, and managed the engineering function, building a high-performing, diverse and geographically distributed team.",
         "Oversaw 3rd party security audits and led remediation efforts, strengthening the platform’s security posture and compliance.",
-        "Delivered measurable improvements in platform stability, operational efficiency, and client-facing analytics capabilities."
+        "Delivered measurable improvements in platform stability, operational efficiency and client-facing analytics capabilities."
       ]
     },
     {
@@ -95,10 +90,10 @@
       "endDate": "2012-05-01",
       "summary": "",
       "highlights": [
-        "2nd / 3rd line application support",
-        "EDI configuration and development",
-        "EPOS support",
-        "IBM AS/400 application support"
+        "2nd / 3rd line application support.",
+        "EDI configuration and development.",
+        "EPOS support.",
+        "IBM AS/400 application support."
       ]
     },
     {
@@ -111,8 +106,8 @@
       "endDate": "2009-01-01",
       "summary": "",
       "highlights": [
-        "Microsoft Windows desktop IT Support",
-        "1st line Windows Server support"
+        "Microsoft Windows desktop IT Support.",
+        "1st line Windows Server support."
       ]
     },
     {
@@ -125,8 +120,8 @@
       "endDate": "2007-09-01",
       "summary": "",
       "highlights": [
-        "Helpdesk phone & email support for retail store and Head Office users",
-        "Out of hours support"
+        "Helpdesk phone & email support for retail store and Head Office users.",
+        "Out of hours support."
       ]
     }
   ],
@@ -327,7 +322,7 @@
     },
     {
       "name": "wwwww.today",
-      "description": "Tracks Google autocomplete results for the 5 \"W\"s (Who, What, When, Where, Why)",
+      "description": "Tracks Google autocomplete results for the 5 \"W\"s (Who, What, When, Where, Why).",
       "highlights": [
         "PHP / Laravel 10",
         "AWS Lambda",
@@ -348,7 +343,7 @@
     },
     {
       "name": "radio-tracker",
-      "description": "BBC 6 Music 'now playing' app with Spotify integration",
+      "description": "BBC 6 Music 'now playing' app with Spotify integration.",
       "highlights": [
         "Elixir",
         "Phoenix LiveView",
