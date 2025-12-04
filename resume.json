@@ -57,7 +57,7 @@
       "endDate": "2019-12-31",
       "summary": "",
       "highlights": [
-        "Designed a new iteration of the platform, moving from the legacy monolithic architecture to a mix of microservices and full stack apps.",
+        "Designed a new iteration of the platform, moving from the legacy monolithic architecture to a blend of microservices and full stack apps.",
         "Hired and managed contractors and permanent employees in a variety of technical roles.",
         "Led requirements gathering and took on Project Management duties when required.",
         "Created documentation for both internal and external non-technical stakeholders."
@@ -74,7 +74,7 @@
       "summary": "",
       "highlights": [
         "Full-stack software development.",
-        "Team leadership and mentoring. Process development and setting team culture.",
+        "Team leadership and mentoring; process development and setting team culture.",
         "Devised and implemented a novel approach to supporting customised semantic layer configuration across multiple tenants.",
         "Designed and built from scratch a flexible MySQL based reporting engine.",
         "Data visualisation development."
@@ -129,7 +129,7 @@
     {
       "institution": "The University of Exeter",
       "url": "https://www.exeter.ac.uk/",
-      "area": "Cyber Security Analytics - with Distinction (2023-2025)",
+      "area": "Cyber Security Analytics - With Distinction (2023-2025)",
       "studyType": "MSc",
       "startDate": "2023",
       "endDate": "2025",
@@ -280,7 +280,7 @@
       "description": "A novel git-based web reconnaissance framework for front-end JavaScript assets.",
       "highlights": [
         "MSc dissertation project",
-        "Cybersecurity reconnaisance",
+        "Cybersecurity reconnaissance",
         "Blue team tooling",        
         "Automated de-minification / de-obfuscation",
         "Forensic change analysis"
