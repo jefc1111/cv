@@ -279,7 +279,7 @@
       "name": "DeltaKeep",
       "description": "A novel web reconnaissance framework for front-end JavaScript assets.",
       "highlights": [
-        "git-based change monitoring and persistence",
+        "Git-based change monitoring and persistence",
         "MSc dissertation project",
         "Cybersecurity reconnaissance",
         "Blue team tooling",        
