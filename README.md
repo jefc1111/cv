@@ -1,8 +1,8 @@
 # Geoff Clayton's CV
 
-View the compiled result here: http://geoff-clayton-cv.s3-website-eu-west-1.amazonaws.com/.
+View the compiled result here: http://geoff-clayton-cv.s3-website-eu-west-1.amazonaws.com/
 
-This repo is based on https://jsonresume.org/.
+This repo is based on https://jsonresume.org/
 
 Notes to self
 - Install the json-resume package globally: `npm install -g resume-cli`
