@@ -279,7 +279,7 @@
       "name": "Trace Labs Technology Team - volunteering",
       "description": "Trace Labs crowdsources OSINT to help find missing people.",
       "highlights": [
-        "Django development",
+        "Django web app development",
         "AWS",
         "Legacy Node / React app maintenance",
         "2nd/3rd line tech support for commubity CTF events (online and in person)",
@@ -325,7 +325,8 @@
       "highlights": [
         "Laravel",
         "Filament PHP",
-        "Side / hobby project"
+        "Side / hobby project",
+        "AI integration (MCP server)"
       ],
       "keywords": [
         
@@ -382,7 +383,7 @@
       ],
       "entity": "",
       "type": "application"
-    },
+    }
   ],
   "meta": {
     "canonical": "https://github.com/jefc1111/cv/blob/master/resume.json",
