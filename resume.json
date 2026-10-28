@@ -343,11 +343,11 @@
       "type": "application"
     },
     {
-      "name": "radio-tracker",
-      "description": "BBC 6 Music 'now playing' app with Spotify integration.",
+      "name": "Sixplorer",
+      "description": "BBC 6 Music 'now playing' app with Spotify integration, for enhancing new music discovery workflows.",
       "highlights": [
-        "Elixir",
-        "Phoenix LiveView",
+        "Laravel",
+        "Filament PHP",
         "Side / hobby project"
       ],
       "keywords": [
@@ -355,7 +355,7 @@
       ],
       "startDate": "2022-08-01",
       "endDate": "",
-      "url": "https://radio-tracker.geoffclayton.com",
+      "url": "https://sixplorer.com",
       "roles": [
         
       ],
