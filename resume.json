@@ -276,6 +276,27 @@
   ],
   "projects": [
     {
+      "name": "Trace Labs Technology Team - volunteering",
+      "description": "Trace Labs crowdsources OSINT to help find missing people.",
+      "highlights": [
+        "Django development",
+        "AWS",
+        "Legacy Node / React app maintenance",
+        "2nd/3rd line tech support for commubity CTF events (online and in person)",
+      ],
+      "keywords": [
+        
+      ],
+      "startDate": "2025-10-01",
+      "endDate": "",
+      "url": "https://tracelabs.org/",
+      "roles": [
+        
+      ],
+      "entity": "",
+      "type": "application"
+    },
+    {
       "name": "DeltaKeep",
       "description": "A novel web reconnaissance framework for front-end JavaScript assets.",
       "highlights": [
@@ -298,6 +319,26 @@
       "entity": "",
       "type": "application"
     },
+    {
+      "name": "Sixplorer",
+      "description": "BBC 6 Music 'now playing' app with Spotify integration, for enhancing new music discovery workflows.",
+      "highlights": [
+        "Laravel",
+        "Filament PHP",
+        "Side / hobby project"
+      ],
+      "keywords": [
+        
+      ],
+      "startDate": "2024-08-01",
+      "endDate": "",
+      "url": "https://sixplorer.com",
+      "roles": [
+        
+      ],
+      "entity": "",
+      "type": "application"
+    }
     {
       "name": "Kilmington History Group",
       "description": "Digital archive and website implementation for local history collective.",
@@ -325,7 +366,7 @@
       "name": "wwwww.today",
       "description": "Tracks Google Search autocomplete results for the 5 \"W\"s (Who, What, When, Where, Why).",
       "highlights": [
-        "PHP, Laravel 10",
+        "PHP, Laravel",
         "AWS Lambda",
         "Puppeteer, web scraping",
         "Side / hobby project"
@@ -342,26 +383,6 @@
       "entity": "",
       "type": "application"
     },
-    {
-      "name": "Sixplorer",
-      "description": "BBC 6 Music 'now playing' app with Spotify integration, for enhancing new music discovery workflows.",
-      "highlights": [
-        "Laravel",
-        "Filament PHP",
-        "Side / hobby project"
-      ],
-      "keywords": [
-        
-      ],
-      "startDate": "2022-08-01",
-      "endDate": "",
-      "url": "https://sixplorer.com",
-      "roles": [
-        
-      ],
-      "entity": "",
-      "type": "application"
-    }
   ],
   "meta": {
     "canonical": "https://github.com/jefc1111/cv/blob/master/resume.json",
