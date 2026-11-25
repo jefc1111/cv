@@ -1,40 +1,40 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Geoff Clayton",
+    "name": "[redacted]",
     "label": "CTO | Platform Lead | Software Engineer",
     "image": "",
-    "email": "me@geoffclayton.com",
-    "phone": "+44 7813 894211",
-    "url": "https://github.com/jefc1111",
+    "email": "[redacted]",
+    "phone": "[redacted]",
+    "url": "[redacted]",
     "summary": "A CTO and career technologist with over a decade of experience shaping end-to-end architecture, product delivery and cyber security for an established full service analytics platform. Experienced in setting company-wide technical strategy, leading engineering teams and delivering technology improvements that create tangible business value. Geoff is a versatile communicator able to align technical decisions with organisational goals in a variety of stakeholder contexts.",
     "location": {
-      "address": "7 Newtons Orchard",
-      "postalCode": "EX13 7UG",
-      "city": "Axminster",
-      "countryCode": "UK",
-      "region": "Devon"
+      "address": "[redacted]",
+      "postalCode": "[redacted]",
+      "city": "[redacted]",
+      "countryCode": "[redacted]",
+      "region": "[redacted]"
     },
     "profiles": [
       {
         "network": "linkedin",
-        "username": "geoff-clayton",
-        "url": "https://www.linkedin.com/in/geoff-clayton-b0222982/"
+        "username": "[redacted]",
+        "url": "[redacted]"
       },
       {
         "network": "personal homepage",
-        "username": "geoff-clayton",
-        "url": "https://geoffclayton.com"
+        "username": "[redacted]",
+        "url": "[redacted]"
       }
     ]
   },
   "work": [
     {
-      "name": "Bright Analytics",
-      "location": "London",
+      "name": "[redacted]",
+      "location": "[redacted]",
       "description": "Full service data analysis & visualisation platform",
       "position": "CTO",
-      "url": "https://brightanalytics.com/",
+      "url": "[redacted]",
       "startDate": "2020-01-01",
       "endDate": "",
       "summary": "",
@@ -49,11 +49,11 @@
       ]
     },
     {
-      "name": "Bright Analytics",
+      "name": "[redacted]",
       "location": "",
       "description": "",
       "position": "Platform Architect",
-      "url": "https://brightanalytics.com/",
+      "url": "[redacted]",
       "startDate": "2017-01-01",
       "endDate": "2019-12-31",
       "summary": "",
@@ -65,11 +65,11 @@
       ]
     },
     {
-      "name": "Bright Analytics",
+      "name": "[redacted]",
       "location": "",
       "description": "",
       "position": "Lead Developer",
-      "url": "https://brightanalytics.com/",
+      "url": "[redacted]",
       "startDate": "2012-01-01",
       "endDate": "2017-12-31",
       "summary": "",
@@ -82,11 +82,11 @@
       ]
     },
     {
-      "name": "HMV UK",
-      "location": "London",
+      "name": "[redacted]",
+      "location": "[redacted]",
       "description": "Music and entertainment retailer",
       "position": "Business Services Analyst",
-      "url": "https://hmv.com/",
+      "url": "[redacted]",
       "startDate": "2009-01-01",
       "endDate": "2012-05-01",
       "summary": "",
@@ -98,7 +98,7 @@
       ]
     },
     {
-      "name": "HMV UK",
+      "name": "[redacted]",
       "location": "",
       "description": "",
       "position": "Windows Infrastructure Analyst",
@@ -112,7 +112,7 @@
       ]
     },
     {
-      "name": "HMV UK",
+      "name": "[redacted]",
       "location": "",
       "description": "",
       "position": "Systems Support Analyst",
@@ -128,8 +128,8 @@
   ],
   "education": [
     {
-      "institution": "The University of Exeter",
-      "url": "https://www.exeter.ac.uk/",
+      "institution": "[redacted]",
+      "url": "[redacted]",
       "area": "Cyber Security Analytics - With Distinction (2023-2025)",
       "studyType": "MSc",
       "startDate": "2023",
@@ -138,8 +138,8 @@
       "courses": []
     },
     {
-      "institution": "The Open University",
-      "url": "https://www.open.ac.uk/",
+      "institution": "[redacted]",
+      "url": "[redacted]",
       "area": "Maths & Computing - First-class honours (2012-2018)",
       "studyType": "BSc (hons)",
       "startDate": "2012",
@@ -159,8 +159,8 @@
       ]
     },
     {
-      "institution": "Abingdon School",
-      "url": "https://www.abingdon.org.uk/",
+      "institution": "[redacted]",
+      "url": "[redacted]",
       "area": "",
       "studyType": "GCSE & A Level",
       "startDate": "1993",
@@ -277,7 +277,7 @@
   ],
   "projects": [
     {
-      "name": "Trace Labs Technology Team - volunteering",
+      "name": "[redacted] Technology Team - volunteering",
       "description": "Trace Labs crowdsources OSINT to help find missing people.",
       "highlights": [
         "Django web app development",
@@ -290,7 +290,7 @@
       ],
       "startDate": "2025-10-01",
       "endDate": "",
-      "url": "https://tracelabs.org/",
+      "url": "[redacted]",
       "roles": [
         
       ],
@@ -298,7 +298,7 @@
       "type": "application"
     },
     {
-      "name": "DeltaKeep",
+      "name": "[redacted]",
       "description": "A novel web reconnaissance framework for front-end JavaScript assets.",
       "highlights": [
         "MSc dissertation project",
@@ -313,7 +313,7 @@
       ],
       "startDate": "2025-01-01",
       "endDate": "",
-      "url": "https://app.deltakeep.com",
+      "url": "[redacted]",
       "roles": [
         
       ],
@@ -321,7 +321,7 @@
       "type": "application"
     },
     {
-      "name": "Sixplorer",
+      "name": "[redacted]",
       "description": "BBC 6 Music 'now playing' app with Spotify integration, for enhancing new music discovery workflows.",
       "highlights": [
         "Laravel",
@@ -334,7 +334,7 @@
       ],
       "startDate": "2024-08-01",
       "endDate": "",
-      "url": "https://sixplorer.com",
+      "url": "[redacted]",
       "roles": [
         
       ],
@@ -342,7 +342,7 @@
       "type": "application"
     },
     {
-      "name": "Kilmington History Group",
+      "name": "[redacted] History Group",
       "description": "Digital archive and website implementation for local history collective.",
       "highlights": [
         "Voluntary work / community interest",
@@ -357,7 +357,7 @@
       ],
       "startDate": "2022-10-01",
       "endDate": "",
-      "url": "https://history.kilmingtonvillage.com/s/khg/page/welcome",
+      "url": "[redacted]",
       "roles": [
         
       ],
@@ -365,7 +365,7 @@
       "type": "application"
     },
     {
-      "name": "wwwww.today",
+      "name": "[redacted]",
       "description": "Tracks Google Search autocomplete results for the 5 \"W\"s (Who, What, When, Where, Why).",
       "highlights": [
         "PHP, Laravel",
@@ -378,7 +378,7 @@
       ],
       "startDate": "2023-04-01",
       "endDate": "",
-      "url": "https://wwwww.today",
+      "url": "[redacted]",
       "roles": [
         
       ],
