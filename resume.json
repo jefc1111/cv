@@ -282,7 +282,7 @@
         "Django web app development",
         "AWS",
         "Legacy Node / React app maintenance",
-        "2nd/3rd line tech support for commubity CTF events (online and in person)"
+        "2nd/3rd line tech support for community CTF events (online and in-person)"
       ],
       "keywords": [
         
@@ -300,8 +300,8 @@
       "name": "DeltaKeep",
       "description": "A novel web reconnaissance framework for front-end JavaScript assets.",
       "highlights": [
-        "Git-based change monitoring and persistence",
         "MSc dissertation project",
+        "Git-based change monitoring and persistence",
         "Cybersecurity reconnaissance",
         "Blue team tooling",        
         "Automated de-minification / de-obfuscation",
